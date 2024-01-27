@@ -1,0 +1,136 @@
+.gradient-text {
+    background: linear-gradient(-45deg, #F300FA, #E48726);
+    background-size: 200% 200%;
+    animation: gradient-bg 2s ease infinite;
+    background-clip: text;
+}
+
+.gradient-text:hover {
+    animation: gradient-bg 0.5s ease infinite;
+    background-clip: unset;
+    color: white;
+}
+
+.gradient-bg {
+    background: linear-gradient(-45deg, #F300FA, #E48726);
+    background-size: 200% 200%;
+    animation: gradient-bg 2s ease infinite;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border: 1px solid #25347D;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #010518;
+    /* You can adjust this color as per your requirement */
+}
+
+.clicked-item {
+    border-radius: 8px;
+    background: linear-gradient(230deg, rgba(10, 1, 10, 0.5) 0%, #147ca5 100%);
+    scale: 105%;
+}
+
+.nav-item:hover {
+    border-radius: 8px;
+    background: linear-gradient(230deg, rgba(10, 1, 10, 0.5) 0%, #147ca5 100%);
+}
+
+@keyframes gradient-bg {
+    0% {
+        background-position: 0% 25%;
+    }
+    50% {
+        background-position: 50% 25%;
+    }
+    100% {
+        background-position: 0% 25%;
+    }
+}
+
+
+.react-multiple-carousel__arrow {
+	display: none !important;
+}
+
+
+.text-glow {
+    animation: glow 3s linear infinite alternate;
+}
+
+#submit {
+    background: linear-gradient(to right, #01dcff 0%, #fe01d4 100%) !important;
+    color: white;
+    font-size: 20px;
+    padding: 6px 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 8px;
+    /* margin-left: 84px !important; */
+}
+
+#payment-message {
+    margin-left: 30px;
+    margin-top: 10px;
+    color: red;
+    font-weight: 200;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px currentColor;
+    }
+    to {
+        text-shadow: 0 0 50px currentColor;
+    }
+}
+
+.rti--container {
+    background-color: transparent !important;
+    border: 0px solid white !important;
+}
+
+.rti--tag {
+    padding: 10px !important;
+    border-radius: 100px !important;
+    font-weight: 800;
+    background: linear-gradient(to right, #01dcff 0%, #fe01d4 100%) !important;
+}
+
+.rti--input {
+    background-color: transparent !important;
+    border: 0px !important;
+    outline: 0px !important;
+}
+
+.rti--input:focus {
+    border: 2px solid white !important;
+    border-radius: 100px !important;
+    max-width: 100px !important;
+    outline: 1px solid white !important;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-right: 76px solid transparent;
+    border-bottom: 128px solid black;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 76px solid transparent;
+    border-bottom: 128px solid black;
+}
+
+
+/* bg-gradient-to-r from-[#090605] via-[#03a0cd] via-[30%] via-[#7e1283] via-[70%] to-[#030a5d] */
+
+.header-grad {
+    background: linear-gradient(to right bottom, #6034c9 0%, #03a0cd 30%, #7e1283 60%, #a82ae1 100%);
+}

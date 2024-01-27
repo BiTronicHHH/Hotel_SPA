@@ -1,0 +1,56 @@
+@font-face {
+     font-family: 'finlandica-font-normal';
+     src: url('../src/fonts/finlandica-regularWeb.woff2') format('woff2'),
+          url('../src/fonts/finlandica-regularWeb.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'whiskey-font-one';
+     src: url('../src/fonts/whiskey-font-one.woff2') format('woff2'),
+          url('../src/fonts/whiskey-font-one.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'whiskey-font-two';
+     src: url('../src/fonts/whiskey-font-two.woff2') format('woff2'),
+          url('../src/fonts/whiskey-font-two.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'whiskey-font-three';
+     src: url('../src/fonts/whiskey-font-three.woff2') format('woff2'),
+          url('../src/fonts/whiskey-font-three.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'iowan-old-style';
+     src: url('../src/fonts/bitstream-iowan-old-style-roman.woff2') format('woff2'),
+          url('../src/fonts/bitstream-iowan-old-style-roman.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+@font-face {
+     font-family: 'iowan-old-style';
+     src: url('../src/fonts/bitstream-iowan-old-style-bold.woff2') format('woff2'),
+          url('../src/fonts/bitstream-iowan-old-style-bold.woff') format('woff');
+     font-weight: bold;
+     font-style: normal;
+}
+
+
+@font-face {
+     font-family: 'iowan-old-style';
+     src: url('../src/fonts/bitstream-iowan-old-style-italic.woff2') format('woff2'),
+          url('../src/fonts/bitstream-iowan-old-style-italic.woff') format('woff');
+     font-weight: normal;
+     font-style: italic;
+}

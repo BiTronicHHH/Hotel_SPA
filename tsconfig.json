@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/blog/DoubleCarousel.jsx", "components/individualBlog/SwiperCarousel.jsx", "components/utils/misc.jsx", "components/freeGPT/FreeGpt.jsx", "components/freeGPT/FreeGpt.jsx", "components/account/ImageCropper.jsx", "pages/user/sales.jsx", "components/account/Sales.jsx", "components/account/RePromptComp.jsx", "pages/user/wallet.jsx", "components/account/Wallet.jsx", "components/account/Stripe/CheckoutForm.jsx", "pages/user/dashboard.jsx", "pages/user/reviewed_prompts.jsx", "pages/user/prompts_management.jsx", "components/stripeComp111/CheckoutForm.jsx", "components/stripeComp111/StripeDialog.jsx", "pages/signup.jsx", "components/account/Account.tsx", "components/account/Account.tsx", "components/aa_tables/BasicUser.jsx", "components/global/ContactComp.jsx", "pages/contact.jsx"],
+  "exclude": ["node_modules"]
+}
